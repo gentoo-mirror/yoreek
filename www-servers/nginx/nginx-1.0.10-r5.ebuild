@@ -53,7 +53,7 @@ HTTP_SLOWFS_CACHE_MODULE_URI="http://labs.frickle.com/files/${HTTP_SLOWFS_CACHE_
 # http_xsltproc (http://github.com/yoreek/nginx-xsltproc-module/, BSD license)
 HTTP_XSLTPROC_MODULE_PV="0.5"
 HTTP_XSLTPROC_MODULE_P="ngx_xsltproc-${HTTP_XSLTPROC_MODULE_PV}"
-HTTP_XSLTPROC_MODULE_SHA1="a7d05e4"
+HTTP_XSLTPROC_MODULE_SHA1="feadd73"
 HTTP_XSLTPROC_MODULE_URI="https://github.com/yoreek/nginx-xsltproc-module/tarball/v${HTTP_XSLTPROC_MODULE_PV}"
 
 inherit eutils ssl-cert toolchain-funcs perl-module flag-o-matic
