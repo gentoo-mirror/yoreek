@@ -118,7 +118,7 @@ CDEPEND="
 	nginx_modules_http_perl? ( >=dev-lang/perl-5.8 )
 	nginx_modules_http_rewrite? ( >=dev-libs/libpcre-4.2 )
 	nginx_modules_http_secure_link? ( userland_GNU? ( dev-libs/openssl ) )
-	nginx_modules_http_xsltproc? ( dev-libs/libxml2 dev-libs/libxslt dev-libs/icu )"
+	nginx_modules_http_xsltproc? ( dev-libs/libxml2 dev-libs/libxslt dev-libs/icu dev-libs/libmemcached )"
 RDEPEND="${CDEPEND}"
 DEPEND="${CDEPEND}
 	arm? ( dev-libs/libatomic_ops )
