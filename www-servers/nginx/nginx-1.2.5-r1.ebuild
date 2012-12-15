@@ -76,9 +76,9 @@ HTTP_LUA_MODULE_URI="https://github.com/chaoslawful/lua-nginx-module/tarball/v${
 HTTP_LUA_MODULE_WD="${WORKDIR}/chaoslawful-lua-nginx-module-${HTTP_LUA_MODULE_SHA1}"
 
 # http_xsltproc (http://github.com/yoreek/nginx-xsltproc-module/, BSD license)
-HTTP_XSLTPROC_MODULE_PV="0.10"
+HTTP_XSLTPROC_MODULE_PV="0.11"
 HTTP_XSLTPROC_MODULE_P="ngx_xsltproc-${HTTP_XSLTPROC_MODULE_PV}"
-HTTP_XSLTPROC_MODULE_SHA1="86da76a"
+HTTP_XSLTPROC_MODULE_SHA1="95a4838"
 HTTP_XSLTPROC_MODULE_URI="https://github.com/yoreek/nginx-xsltproc-module/tarball/v${HTTP_XSLTPROC_MODULE_PV}"
 
 inherit eutils ssl-cert toolchain-funcs perl-module flag-o-matic user

@@ -59,9 +59,9 @@ HTTP_FANCYINDEX_MODULE_P="${HTTP_FANCYINDEX_MODULE_PN}-${HTTP_FANCYINDEX_MODULE_
 HTTP_FANCYINDEX_MODULE_URI="http://gitorious.org/${HTTP_FANCYINDEX_MODULE_PN}/${HTTP_FANCYINDEX_MODULE_PN}/archive-tarball/v${HTTP_FANCYINDEX_MODULE_PV}"
 
 # http_xsltproc (http://github.com/yoreek/nginx-xsltproc-module/, BSD license)
-HTTP_XSLTPROC_MODULE_PV="0.10"
+HTTP_XSLTPROC_MODULE_PV="0.11"
 HTTP_XSLTPROC_MODULE_P="ngx_xsltproc-${HTTP_XSLTPROC_MODULE_PV}"
-HTTP_XSLTPROC_MODULE_SHA1="86da76a"
+HTTP_XSLTPROC_MODULE_SHA1="95a4838"
 HTTP_XSLTPROC_MODULE_URI="https://github.com/yoreek/nginx-xsltproc-module/tarball/v${HTTP_XSLTPROC_MODULE_PV}"
 
 inherit eutils ssl-cert toolchain-funcs perl-module flag-o-matic
