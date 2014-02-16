@@ -130,7 +130,7 @@ HTTP_PUSH_STREAM_MODULE_WD="${WORKDIR}/nginx-push-stream-module-${HTTP_PUSH_STRE
 # http_xsltproc (http://github.com/yoreek/nginx-xsltproc-module/, BSD license)
 HTTP_XSLTPROC_MODULE_PV="0.15"
 HTTP_XSLTPROC_MODULE_P="ngx_xsltproc-${HTTP_XSLTPROC_MODULE_PV}"
-HTTP_XSLTPROC_MODULE_SHA1="gdda8dfc"
+HTTP_XSLTPROC_MODULE_SHA1="dda8dfc"
 HTTP_XSLTPROC_MODULE_URI="https://github.com/yoreek/nginx-xsltproc-module/tarball/v${HTTP_XSLTPROC_MODULE_PV}"
 
 inherit eutils ssl-cert toolchain-funcs perl-module flag-o-matic user systemd versionator
