@@ -257,3 +257,56 @@
 
   Package-Manager: portage-2.2.27
 
+  06 Mar 2016; Manuel Rüger <mrueg@gentoo.org> -nginx-1.9.10.ebuild,
+  -nginx-1.9.10-r3.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.27
+
+*nginx-1.9.13 (31 Mar 2016)
+
+  31 Mar 2016; Ian Delaney <idella4@gentoo.org> +nginx-1.9.13.ebuild:
+  version bump to 1.9.13
+
+  Update 3rd party modules:
+   - lua
+   - modsecurity
+
+  Upstream changes: http://nginx.org/en/CHANGES
+  Closes: https://github.com/gentoo/gentoo/pull/1169
+
+  Signed-off-by: Ian Delaney <idella4@gentoo.org>
+
+  10 Apr 2016; Manuel Rüger <mrueg@gentoo.org> files/nginx.logrotate-r1:
+  Revert "www-servers/nginx: use the nginx utility command for log reopening"
+
+  Gentoo Bug: #576558
+
+  This reverts commit 3e8c33b631035683ce988e0988a06661524164f5.
+
+*nginx-1.9.14 (10 Apr 2016)
+
+  10 Apr 2016; Manuel Rüger <mrueg@gentoo.org> +nginx-1.9.14.ebuild:
+  Version bump to 1.9.14
+
+  Package-Manager: portage-2.2.28
+
+  21 Apr 2016; Zac Medico <zmedico@gentoo.org> -files/check_1.7.2+.patch,
+  nginx-1.8.1.ebuild:
+  fix nginx_modules_upstream_check for 1.8.1 (bug 580764)
+
+  Package-Manager: portage-2.2.28
+
+*nginx-1.9.15 (24 Apr 2016)
+
+  24 Apr 2016; Manuel Rüger <mrueg@gentoo.org> +nginx-1.9.15.ebuild:
+  Version bump to 1.9.15
+
+  Package-Manager: portage-2.2.28
+
+  24 Apr 2016; Manuel Rüger <mrueg@gentoo.org> -nginx-1.9.12.ebuild,
+  -nginx-1.9.13.ebuild:
+  Remove old
+
+  Package-Manager: portage-2.2.28
+
